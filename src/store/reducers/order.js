@@ -28,7 +28,7 @@ const reducer = (state = initialState, action) => {
                 loading: false
             }
         default:
-            return {}
+            return initialState
     }
 }
 
